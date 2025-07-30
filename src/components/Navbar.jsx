@@ -64,8 +64,15 @@ const Navbar = () => {
                     <div className='flex items-center gap-1 p-3'>
                         <img className='h-6 rotate-90' src={assets.dropdown} alt="" />
                         <p>Back</p>
-
                     </div>
+                    <NavLink className='py-2 p1-6 border' to='/'>HOME</NavLink>
+                    <NavLink className='py-2 p1-6 border' to='/collection'>COLLECTION</NavLink>
+                    <NavLink className='py-2 p1-6 border' to='/about'>ABOUT</NavLink>
+                    <NavLink className='py-2 p1-6 border' to='/contact'>CONTACT</NavLink>
+
+                    
+
+                    
 
                 </div>
 
