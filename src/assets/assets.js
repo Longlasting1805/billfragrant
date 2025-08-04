@@ -17,6 +17,8 @@ import denver3 from "./denver3.jpg"
 import tribal1 from "./tribal1.jpg"
 import tribal2 from "./tribal2.jpg"
 import tribal3 from "./tribal3.jpg"
+import exchange from "./exchange.png"
+
 
 
 
@@ -41,7 +43,8 @@ export const assets = {
     denver3,
     tribal1,
     tribal2,
-    tribal3
+    tribal3, 
+    exchange
 }
 
 export const products = [
