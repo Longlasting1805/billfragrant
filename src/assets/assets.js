@@ -18,6 +18,9 @@ import tribal1 from "./tribal1.jpg"
 import tribal2 from "./tribal2.jpg"
 import tribal3 from "./tribal3.jpg"
 import exchange from "./exchange.png"
+import easyreturn from "./easyreturn.jpg"
+import customersupport from "./customersupport.png"
+
 
 
 
@@ -44,7 +47,9 @@ export const assets = {
     tribal1,
     tribal2,
     tribal3, 
-    exchange
+    exchange,
+    easyreturn,
+    customersupport
 }
 
 export const products = [
