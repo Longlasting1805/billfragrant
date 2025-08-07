@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react'
 import { ShopContext } from '../context/ShopContext'
+import { assets } from '../assets/assets'
 
 const Collection = () => {
   const { products } = useContext(ShopContext)
@@ -11,7 +12,9 @@ const Collection = () => {
 
       {/* Filter options */}
       <div className='min-w-60'>
-        <p className='my-2 text-xl flex items-center cursor-pointer gap-2'>FILTERS</p>
+        <p onClick={()=>setShowFilter(!showFilter)} className='my-2 text-xl flex items-center cursor-pointer gap-2'>FILTERS
+          <img src={assets.rightsidearrow} className={`h-3 sm:hidden transform transition-transform duration-200 ${showFilter ? 'rotate-90' : ''}`} alt="" />
+        </p>
         {/* Category Filter */}
         <div className={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? '' : 'hidden'} sm:block`}>
           <p className='mb-3 text-sm font-medium'>CATEGORIES</p>
@@ -42,6 +45,8 @@ const Collection = () => {
             </p>
           </div>
         </div>
+
+        
       </div>
     </div>
   )
