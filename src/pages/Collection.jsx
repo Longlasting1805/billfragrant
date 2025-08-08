@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import { assets } from '../assets/assets'
+import Title from '../components/Title'
 
 const Collection = () => {
   const { products } = useContext(ShopContext)
@@ -44,9 +45,15 @@ const Collection = () => {
               <input type="checkbox" className='w-3' value={'Kids Perfume'} />Kids Perfume
             </p>
           </div>
+        </div>       
+      </div>
+      {/* Right side */}
+      <div className='flex-1'>
+        <div className='flex justify-between text-base sm:text-2xl mb-4'>
+          <Title text1={'ALL'} text2={'COLLECTIONS'}/>
+
         </div>
 
-        
       </div>
     </div>
   )
