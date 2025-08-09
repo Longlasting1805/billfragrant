@@ -63,7 +63,7 @@ export const products = [
         price: 100,
         image: [myer, myer2, myer3],
         category: "Men",
-        subCategory: "Men Pefume",
+        subCategory: "Men",
         Sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
@@ -75,8 +75,8 @@ export const products = [
         description: "A lightweight peff",
         price: 100,
         image: [blue, blue1, blue2],
-        category: "Men",
-        subCategory: "Men Pefume",
+        category: "Women",
+        subCategory: "Women",
         Sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
@@ -87,8 +87,8 @@ export const products = [
         description: "A lightweight peff",
         price: 100,
         image: [denver1, denver2, denver3],
-        category: "Men",
-        subCategory: "Men Pefume",
+        category: "Kids",
+        subCategory: "Kids",
         Sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
@@ -100,7 +100,7 @@ export const products = [
         price: 100,
         image: [tribal1, tribal2, tribal3],
         category: "Men",
-        subCategory: "Men Pefume",
+        subCategory: "Men",
         Sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
@@ -111,8 +111,8 @@ export const products = [
         description: "A lightweight peff",
         price: 100,
         image: [myer, myer2, myer3],
-        category: "Men",
-        subCategory: "Men Pefume",
+        category: "Women",
+        subCategory: "Women",
         Sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
@@ -124,8 +124,8 @@ export const products = [
         description: "A lightweight peff",
         price: 100,
         image: [blue, blue1, blue2],
-        category: "Men",
-        subCategory: "Men Pefume",
+        category: "Kids",
+        subCategory: "Kids",
         Sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
@@ -138,7 +138,7 @@ export const products = [
         price: 100,
         image: [denver1, denver2, denver3],
         category: "Men",
-        subCategory: "Men Pefume",
+        subCategory: "Men",
         Sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
@@ -150,8 +150,8 @@ export const products = [
         description: "A lightweight peff",
         price: 100,
         image: [tribal1, tribal2, tribal3],
-        category: "Men",
-        subCategory: "Men Pefume",
+        category: "Women",
+        subCategory: "Women",
         Sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
@@ -163,8 +163,8 @@ export const products = [
         description: "A lightweight peff",
         price: 100,
         image: [myer, myer2, myer3],
-        category: "Men",
-        subCategory: "Men Pefume",
+        category: "Kids",
+        subCategory: "Kids",
         Sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
@@ -177,7 +177,7 @@ export const products = [
         price: 100,
         image: [blue, blue1, blue2],
         category: "Men",
-        subCategory: "Men Pefume",
+        subCategory: "Men",
         Sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
