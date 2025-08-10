@@ -21,6 +21,7 @@ import exchange from "./exchange.png"
 import easyreturn from "./easyreturn.jpg"
 import customersupport from "./customersupport.png"
 import rightsidearrow from "./rightsidearrow.png"
+import cancel_icon from "./cancel_icon.jpg"
 
 
 
@@ -52,7 +53,8 @@ export const assets = {
     exchange,
     easyreturn,
     customersupport,
-    rightsidearrow
+    rightsidearrow,
+    cancel_icon
 }
 
 export const products = [
