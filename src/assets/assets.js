@@ -22,6 +22,8 @@ import easyreturn from "./easyreturn.jpg"
 import customersupport from "./customersupport.png"
 import rightsidearrow from "./rightsidearrow.png"
 import cancel_icon from "./cancel_icon.jpg"
+import starIcon from "./starIcon.png"
+import dullStarIcon from "./dullStarIcon.png"
 
 
 
@@ -54,7 +56,9 @@ export const assets = {
     easyreturn,
     customersupport,
     rightsidearrow,
-    cancel_icon
+    cancel_icon,
+    starIcon,
+    dullStarIcon
 }
 
 export const products = [
@@ -66,7 +70,7 @@ export const products = [
         image: [myer, myer2, myer3],
         category: "Men",
         subCategory: "Men",
-        Sizes: ["S", "M", "L"],
+        sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
     },
@@ -79,7 +83,7 @@ export const products = [
         image: [blue, blue1, blue2],
         category: "Women",
         subCategory: "Women",
-        Sizes: ["S", "M", "L"],
+        sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
     },
@@ -91,7 +95,7 @@ export const products = [
         image: [denver1, denver2, denver3],
         category: "Kids",
         subCategory: "Kids",
-        Sizes: ["S", "M", "L"],
+        sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
     },
@@ -103,7 +107,7 @@ export const products = [
         image: [tribal1, tribal2, tribal3],
         category: "Men",
         subCategory: "Men",
-        Sizes: ["S", "M", "L"],
+        sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
     },
@@ -128,7 +132,7 @@ export const products = [
         image: [blue, blue1, blue2],
         category: "Kids",
         subCategory: "Kids",
-        Sizes: ["S", "M", "L"],
+        sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
     },
@@ -141,7 +145,7 @@ export const products = [
         image: [denver1, denver2, denver3],
         category: "Men",
         subCategory: "Men",
-        Sizes: ["S", "M", "L"],
+        sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
     },
@@ -154,7 +158,7 @@ export const products = [
         image: [tribal1, tribal2, tribal3],
         category: "Women",
         subCategory: "Women",
-        Sizes: ["S", "M", "L"],
+        sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
     },
@@ -167,7 +171,7 @@ export const products = [
         image: [myer, myer2, myer3],
         category: "Kids",
         subCategory: "Kids",
-        Sizes: ["S", "M", "L"],
+        sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
     },
@@ -180,7 +184,7 @@ export const products = [
         image: [blue, blue1, blue2],
         category: "Men",
         subCategory: "Men",
-        Sizes: ["S", "M", "L"],
+        sizes: ["S", "M", "L"],
         date: 17166345448,
         bestseller: true
     }
